@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>180097113987-ahcc2al5e6m20a5kud94onh526s2uac0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.180097113987-ahcc2al5e6m20a5kud94onh526s2uac0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAGpqHuGLqf4jVPuuAiYWKsT0wr4HBKdSM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>180097113987</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.humanidad.reporteApp</string>
+	<key>PROJECT_ID</key>
+	<string>appreportehumanidadsur</string>
+	<key>STORAGE_BUCKET</key>
+	<string>appreportehumanidadsur.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:180097113987:ios:631ac2dcb32b2990e260b6</string>
+</dict>
+</plist>

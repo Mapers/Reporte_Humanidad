@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180097113987",
+    "project_id": "appreportehumanidadsur",
+    "storage_bucket": "appreportehumanidadsur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180097113987:android:6cc8f0e6c50715f5e260b6",
+        "android_client_info": {
+          "package_name": "com.humanidad.app_reporte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180097113987-de3n7sndasb06p4l08krqjl6ip93odm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg8VN5krQm8vuMjUtOY8_c_NcuBMh3bak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180097113987-de3n7sndasb06p4l08krqjl6ip93odm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
