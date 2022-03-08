@@ -1,4 +1,4 @@
-package com.humanidad.app_reporte
+package pe.biensalud.app_reporte
 
 import android.util.Log
 import io.flutter.plugin.common.PluginRegistry;

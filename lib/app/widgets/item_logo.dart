@@ -24,7 +24,7 @@ class ItemLogo extends StatelessWidget {
                 image: DecorationImage(image: AssetImage('assets/logo/logo3.png'))
               )
             ),
-            Text('HUMANIDAD',style: TextStyle(color: Colors.white, fontSize: 34,fontWeight: FontWeight.bold)),
+            Text('BienSalud',style: TextStyle(color: Colors.white, fontSize: 34,fontWeight: FontWeight.bold)),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [

@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
             supportedLocales: [
               const Locale('en','PE'),
             ],
-            title: 'Humanidad Sur',
+            title: 'BienSalud Reporte',
             theme: ThemeData(
               primarySwatch: MaterialColor(PRIMARY_COLOR.value, ColorsUtil.getSwatch(PRIMARY_COLOR)),
               primaryColor: PRIMARY_COLOR,

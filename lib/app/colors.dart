@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-const PRIMARY_COLOR = Color.fromRGBO(227, 6, 19, 1);
+const PRIMARY_COLOR = Color(0xff0B587E);
 const RED_COLOR_CLARO = Color.fromRGBO(223, 113, 111, 1);
 const WHITE_COLOR_5 = Color.fromRGBO(255, 255, 255, 0.5);
-const ACCENT_COLOR = Color.fromRGBO(255, 41, 0, 1);
+const ACCENT_COLOR = Color(0xff5EC2D0);
 const BACKGROUND_COLOR = Color.fromRGBO(241, 242, 247, 1);
 
 const LIGTH_GREY_COLOR = Color.fromRGBO(114, 114, 114, 1);

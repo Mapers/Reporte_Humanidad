@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.humanidad.app_reporte">
+    package="pe.biensalud.app_reporte">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
     <application
         android:name=".Application"
-        android:label="Humanidad Sur"
+        android:label="BienSalud Reporte"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

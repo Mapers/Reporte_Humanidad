@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "180097113987",
-    "project_id": "appreportehumanidadsur",
-    "storage_bucket": "appreportehumanidadsur.appspot.com"
+    "project_number": "723290739380",
+    "project_id": "reportebiensalud",
+    "storage_bucket": "reportebiensalud.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:180097113987:android:6cc8f0e6c50715f5e260b6",
+        "mobilesdk_app_id": "1:723290739380:android:b46228f0b84528d3f0fde1",
         "android_client_info": {
-          "package_name": "com.humanidad.app_reporte"
+          "package_name": "pe.biensalud.app_reporte"
         }
       },
       "oauth_client": [
         {
-          "client_id": "180097113987-de3n7sndasb06p4l08krqjl6ip93odm1.apps.googleusercontent.com",
+          "client_id": "723290739380-q4m5ng7saabbomo6opmf6942pgd9nhk7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.biensalud.app_reporte",
+            "certificate_hash": "08e7a28b81feb90fd0bf0c9da9998f778817025f"
+          }
+        },
+        {
+          "client_id": "723290739380-k7geutdfiif9f90dcop1uk61d5rc2qe1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCg8VN5krQm8vuMjUtOY8_c_NcuBMh3bak"
+          "current_key": "AIzaSyDZNkc43b-qJ3s96Qc2kL4GT_FsjofHWP8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "180097113987-de3n7sndasb06p4l08krqjl6ip93odm1.apps.googleusercontent.com",
+              "client_id": "723290739380-k7geutdfiif9f90dcop1uk61d5rc2qe1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

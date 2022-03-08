@@ -1,4 +1,4 @@
-package com.humanidad.app_reporte
+package pe.biensalud.app_reporte
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterFragmentActivity;

@@ -1,4 +1,4 @@
-package com.humanidad.app_reporte;
+package pe.biensalud.app_reporte;
 
 import io.flutter.app.FlutterApplication;
 import io.flutter.plugin.common.PluginRegistry;
@@ -6,7 +6,7 @@ import io.flutter.plugin.common.PluginRegistry.PluginRegistrantCallback;
 import io.flutter.plugins.GeneratedPluginRegistrant;
 import io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin;
 import io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService;
-import com.humanidad.app_reporte.FlutterLocalNotificationPluginRegistrant;
+import pe.biensalud.app_reporte.FlutterLocalNotificationPluginRegistrant;
 
 public class Application extends FlutterApplication implements PluginRegistrantCallback {
   @Override
