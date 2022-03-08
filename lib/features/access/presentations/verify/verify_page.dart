@@ -1,6 +1,8 @@
+import 'package:app_reporte_humanidad/app/api.dart';
 import 'package:app_reporte_humanidad/app/navigation/routes.dart';
 import 'package:app_reporte_humanidad/app/widgets/emerging_message.dart';
 import 'package:app_reporte_humanidad/core/biometric/biometric_info.dart';
+import 'package:app_reporte_humanidad/core/utils/database_manager.dart';
 import 'package:app_reporte_humanidad/features/access/presentations/verify/bloc/access_bloc.dart';
 import 'package:app_reporte_humanidad/injection_container.dart';
 import 'package:flutter/material.dart';
@@ -15,6 +17,7 @@ class VerifyPage extends StatefulWidget {
 
 class _VerifyPageState extends State<VerifyPage> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
+  
 
   bool showLoading = false;
 
@@ -23,6 +26,9 @@ class _VerifyPageState extends State<VerifyPage> {
     WidgetsBinding.instance.addPostFrameCallback((_) async{
       await Future.delayed(Duration(seconds: 1));
       setState(() => showLoading = true);
+      final DatabaseManager databaseManager = DatabaseManager();
+      final urlBase = await databaseManager.getUrlBase();
+      URL_API = urlBase;
       BlocProvider.of<AccessBloc>(context).add(VerifyAccessEvent());
     });
     super.initState();

@@ -13,7 +13,7 @@ const TEXT_COLOR = Color.fromRGBO(79, 79, 79, 1);
 const APP_BAR_COLOR = Color.fromRGBO(237, 237, 237, 1);
 const TEXT_LIGTH_COLOR = Color.fromRGBO(143, 143, 143, 1);
 
-const PRIMARY_BLACK_COLOR = Color.fromRGBO(204, 0, 7, 1);
+const PRIMARY_BLACK_COLOR = Color(0xff0B587E);
 const DIVIDER_COLOR = Color.fromRGBO(212, 212, 212, 1);
 
 const DISABLED_COLOR = Color.fromRGBO(87, 87, 86, 1);

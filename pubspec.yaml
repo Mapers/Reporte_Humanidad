@@ -38,6 +38,7 @@ dependencies:
   imei_plugin: ^1.2.0
   flutter_swipe_action_cell: ^1.3.4
   flutter_launcher_icons: ^0.7.5
+  cloud_firestore: ^0.14.2
 
 dev_dependencies:
   flutter_test:

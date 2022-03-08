@@ -43,12 +43,6 @@ class _AppDrawerState extends State<AppDrawer> {
             }
           },
           child: Container(
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('assets/background/drawer.png'),
-                fit: BoxFit.fill
-              ),
-            ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
@@ -56,12 +50,17 @@ class _AppDrawerState extends State<AppDrawer> {
                 Column(
                   children: <Widget>[
                     Container(
-                      width: 220,
-                      height: 220,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage('assets/logo/logo-humanidad-sur-white.png'))
-                      )
+                      color: Colors.white,
+                      width: double.infinity,
+                      child: Container(
+                        width: 220,
+                        height: 220,
+                        decoration: BoxDecoration(
+                          image: DecorationImage(image: AssetImage('assets/logo/logo-humanidad-sur-white.png'))
+                        )
+                      ),
                     ),
+                    Container(height: 20),
                     Text(userEntity.username, style: TextStyle(fontSize: 25, color: Colors.white, fontWeight: FontWeight.bold),),
                     Container(height: 40),
                     Item(
